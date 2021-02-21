@@ -46,20 +46,22 @@ export default {
 }
 
 .block2 {
-  height: 40px;
+  display: flex; 
+  align-items: center;
   width: 400px;
   border-radius: 12px;
   text-align: left;
   vertical-align: middle;
   padding: 10px;
-  box-sizing: border-box;
   box-shadow: 0 14px 35px rgba(87, 87, 87, 0.25);
   background: white;
 }
 
 input[type="text"] {
   border: none;
+  margin-right: 10px;
   outline: none;
+  width: 250px;
 }
 
 .checkbox {
@@ -74,6 +76,7 @@ input[type="text"] {
   height: 20px;
   background: #EAE8EA;
   border-radius: 5px;
+  margin-right: 10px;
 }
 
 .checkbox:checked + .checkbox-custom::before {
@@ -92,6 +95,8 @@ input[type="text"] {
   border-radius: 7px;
   background: #F2F3F6;
   padding: 7px 9px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 select {
@@ -100,10 +105,12 @@ select {
   border-radius: 7px;
   background: #F2F3F6;
   padding: 7px 9px;
+  cursor: pointer;
 }
 
 select option {
   padding: 10px;
+  cursor: pointer;
 }
 
 </style>
